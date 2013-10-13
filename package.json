@@ -1,0 +1,35 @@
+{
+  "name": "node-set",
+  "preferGlobal": false,
+  "private": false,
+  "main": "./lib/set",
+  "author": {
+    "email": "mosconfabrizio@gmail.com",
+    "name": "Fabrizio Moscon"
+  },
+  "version": "0.0.1",
+  "description": "Set data structure",
+  "keywords": [
+    "set",
+    "collection",
+    "object set",
+    "object collection"
+  ],
+  "bugs": {
+    "url": "https://github.com/fabriziomoscon/node-set/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "coffee -o lib/ -c src",
+    "test": "mocha test"
+  },
+  "devDependencies": {
+    "coffee-script": "1.6.x",
+    "mocha": "1.13.x",
+    "should": "2.0.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabriziomoscon/node-set.git"
+  }
+}
