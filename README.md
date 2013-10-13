@@ -1,5 +1,7 @@
 # node set
 
+[![Build Status](https://travis-ci.org/fabriziomoscon/node-set.png?branch=master)](https://travis-ci.org/fabriziomoscon/node-set)
+
 A super simple javascript implementation of `Set`. As far as this module is concerned, a `Set` is an unordered list of objects of the same type. This implementation doesn't try to substitute the new coming ES6 implementation for sets, but represents a much more simple and lightweight implementation.
 
 Use a node set when you need a list of object of the same type.
@@ -41,6 +43,12 @@ The only dev dependency is `coffee-script` which can be installed running 'npm i
 because no one likes needlessly big modules.
 
 Contributions are welcome!
+
+## Test
+
+```bash
+npm test
+```
 
 ## License
 
